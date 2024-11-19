@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NatGeo implements NewsObservable {
-    List<Observer> observers = new ArrayList<Observer>();
+    List<Observer> observers = new ArrayList<>();
     private String latestNews;
 
     @Override
